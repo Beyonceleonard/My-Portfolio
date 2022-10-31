@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 251, 251);
+    color: #fff;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: rgb(1, 35, 62);
+    overflow-y: auto;
+}
+#header .profile img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid rgb(36, 115, 250);
+}
+#heeader .profile h1{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+}
+.fa-instagram{
+    position: absolute;
+    color: black;
+    border-radius: 50px;
+}
+.fa-twitter{
+    position: absolute;
+    color: black;
+    left: 15%;
+}
+.fa-facebook-official{
+    position: absolute;
+    color: black;
+    left: 26%;
+}
+#header .profile h1 a,
+#header .profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#main{
+    margin-left: 300px;
+}
+@media (max-width: 720px) {
+    #header{
+        left: 0;
+    }
+    #main{
+        margin-left: 0;
+    }
+}
+/* Navbar menu */ 
+.nav-menu{
+    padding-top: 30px;
+}
+.nav-menu *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu > ul > li{
+    position: relative;
+    white-space: nowrap;
+}
+.nav-menu a{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.nav-menu a i{
+    font-size: 24px;
+    padding-right: 8px;
+    color: #6f7180;
+}
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-menu a:hover i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a i{
+    color: rgb(39, 124, 236);
+}
+/* Mobile Navigation */
+.mobile-nav-toggle{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+}
