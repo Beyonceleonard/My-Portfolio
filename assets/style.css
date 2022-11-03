@@ -203,7 +203,7 @@ body{
 .about .content ul li{
     padding-bottom: 10px;
 }
-.about .content ul li{
+.about .fa-angle-right{
     font-size: 20px;
     padding-right: 2px;
     color: #0e8ac4;
@@ -211,3 +211,136 @@ body{
 .about .content p:last-child{
     margin-bottom: 0;
 }
+/*-- Skills Bar -- */
+.skills .progress{
+    height: 50px;
+    display: block;
+    background: none;
+}
+.skills .progress .skill{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #0e6f9c;
+}
+.skills .progress .skill .val{
+    float: right;
+    font-style: normal;
+}
+.skills .progress-bar-wrap{
+    background: #fff;
+}
+.skills .progress-bar{
+    width: px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #0e8ac4;
+
+}
+/*-- Service --*/
+.services .icon-box{
+    margin-bottom: 20px;
+}
+.fa-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #0e8ac4;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #0e8ac4;
+}
+.fa-bar-chart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #0e8ac4;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #0e8ac4;
+}
+.fa-globe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #0e8ac4;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #0e8ac4;
+}
+.fa-picture-o{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #0e8ac4;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #0e8ac4;
+}
+.fa-sliders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #0e8ac4;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #0e8ac4;
+}
+.fa-tasks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #0e8ac4;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #0e8ac4;
+}
+.services .icon i{
+    color: black;
+    font-size: 24px;
+    line-height: 2;
+}
+.services .icon i::before {
+    margin-left: 12px !important;
+}
+.services .icon-box:hover .icon{
+    background: #fff;
+}
+.services .icon-box:hover .icon i{
+    color:#fff;
+}
+.services title{
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.services .title a{
+    color: #272729;
+    margin-left: 80px;
+    line-height: 24px;
+}
+.services .title a:hover{
+    color: #0e8ac4;
+}
+.services .description{
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+}
+  
