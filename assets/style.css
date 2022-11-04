@@ -244,6 +244,10 @@ body{
 .services .icon-box{
     margin-bottom: 20px;
 }
+.services .icon-box .icon i::before{
+    line-height: 2 !important;
+    margin-left: 12px;
+}
 .fa-desktop{
     display: flex;
     align-items: center;
@@ -313,10 +317,7 @@ body{
 .services .icon i{
     color: black;
     font-size: 24px;
-    line-height: 2;
-}
-.services .icon i::before {
-    margin-left: 12px !important;
+    margin-left: 12px;
 }
 .services .icon-box:hover .icon{
     background: #fff;
@@ -343,4 +344,6 @@ body{
     line-height: 24px;
     font-size: 14px;
 }
+/* Testimomial Section */
+
   
